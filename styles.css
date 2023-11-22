@@ -1,0 +1,54 @@
+/* styles.css */
+
+/* styles.css */
+
+body {
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/000/691/499/non_2x/rock-paper-scissors-seamless-pattern-vector.png');
+    background-size: cover; /* Ensure the background covers the entire viewport */
+    background-position: center; /* Center the background image */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+    color: #333;
+}
+
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* styles.css */
+
+button {
+    font-family: 'Fredericka the Great', cursive;
+    background-color: #26eb51;
+    color: #fff;
+    font-size: 16px;
+    padding: 20px 20px;
+    margin: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0da02d;
+}
+
+i {
+    margin-right: 5px; /* Add space between the icon and text */
+}
+
+
+#result {
+    font-size: 25px;
+    margin-top: 20px;
+    color: #333;
+}
